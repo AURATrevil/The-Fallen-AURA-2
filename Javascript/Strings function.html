@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Strings function in javascript
+  </title>
+</head>
+
+<body>
+
+  <script>
+    var str = 'This is string';
+    console.log(str);
+
+    //First occurence of a substring
+    var position = str.indexOf('is');
+    //console.log(position);
+
+    //Last occurrence of a substring
+    position = str.lastIndexOf('is');
+    //console.log(position);
+
+
+    var substr = str.slice(1, 7);
+    //var substr = str.substring(1,7);
+
+    var substr1 = str.substr(1, 3);
+    // console.log(substr1);
+
+
+    var replace = str.replace('string', 'Me Aayush');
+    //console.log(str);
+    //console.log(replace);
+
+    //  console.log(str.toUpperCase());
+    // console.log(str.toLocaleLowerCase());
+
+    var newstr = str.concat('  New string');
+    console.log(newstr);
+
+
+    var strwithspaces = '             this     contains   too    much    spaces        ';
+    // console.log(strwithspaces);
+    //   console.log(strwithspaces.trim());
+
+
+    var char2 = str.charAt(2);
+    //char2 = str.charCodeAt(2);
+    console.log(char2)
+  </script>
+
+</body>
+
+</html>
