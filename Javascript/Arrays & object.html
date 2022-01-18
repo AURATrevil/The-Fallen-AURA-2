@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Arrays and objects in javascript
+  </title>
+  <style>
+   /* * {
+      margin: 0px;
+      padding: 0px;
+    }*/
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      width: 90%;
+      padding: 20px 15px;
+      ;
+      border: 2px solid black;
+      background-color: #F7F3D2;
+      color: #562257;
+    }
+
+    div h1 {
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>
+      Learning JavaScript
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse harum vel laborum, aspernatur nam consequuntur impedit dolore nihil ab! Eos.
+    </p>
+  </div>
+
+  <script>
+    let mylet = 27;
+    let mylet2 = 'string';
+    let mylet3 = true;
+    let mylet4 = null;
+    let mylet5 = undefined;
+
+    let employee = {
+      name: 'Aayush',
+      age: 17,
+      channel: 'The Fallen AURA',
+      'channel 2': 'AURA X',
+    }
+    console.log(employee);
+
+    let names = ['Aayush', 'Kaif', 'Raj', 'Sachin', 'Rohit', undefined];
+    names.push('They are toppers')
+    console.log(names);
+    //console.log(names[0]);
+    // console.log(names.length);
+
+    let numbers = new Array(67, 28, 36, 54, );
+    numbers = numbers.sort();
+    console.log(numbers);
+
+    // let nik = [32];
+    // console.log(nik[15]);
+  </script>
+
+</body>
+
+</html>
