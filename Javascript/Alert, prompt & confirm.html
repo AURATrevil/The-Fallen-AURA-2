@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Alert, prompt & confirm in javascript
+  </title>
+  
+   <style>
+   /* * {
+      margin: 0px;
+      padding: 0px;
+    }*/
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      width: 90%;
+      padding: 20px 15px;
+      ;
+      border: 2px solid black;
+      background-color: #F7F3D2;
+      color: #562257;
+    }
+
+    div h1 {
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>
+      Learning JavaScript
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse harum vel laborum, aspernatur nam consequuntur impedit dolore nihil ab! Eos.
+    </p>
+  </div>
+
+<script>
+  // alert in in-browset javascript
+  // alert('Something went wrong');
+  
+  // prompt in javascript
+  //let name = prompt('What is you name','UNKNOWN');
+  //console.log(name);
+  
+  //confirm in javascript
+  let deletepost = confirm('Do you really want to delete this post');
+  
+  if(deletepost){
+    console.log('Your post is deleted successfully');
+  }
+  else{
+    console.log(`Your post wasn't deleted`);
+  }
+  
+</script>
+
+</body>
+
+</html>
