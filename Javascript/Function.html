@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Functions in Javascript
+  </title>
+  <style>
+   /* * {
+      margin: 0px;
+      padding: 0px;
+    }*/
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      width: 90%;
+      padding: 20px 15px;
+      ;
+      border: 2px solid black;
+      background-color: #F7F3D2;
+      color: #562257;
+    }
+
+    div h1 {
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>
+      Learning JavaScript
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse harum vel laborum, aspernatur nam consequuntur impedit dolore nihil ab! Eos.
+    </p>
+  </div>
+
+  <script>
+  function met(name, mor){
+    console.log(mor + ' ' + name);
+    console.log(name + ' is a good boy');
+  }
+  function sum(a,b,c){
+    let d = a + b + c;
+    return d;
+  }
+  
+    let name1 = 'Aayush';
+    let name2 = 'Kaif';
+    let name3 = 'vithal';
+    let name4 = 'Yogesh';
+    let mor = 'Good morning';
+    
+    met(name1, mor);
+    met(name2, mor);
+    met(name3, mor);
+    met(name4, mor);
+    
+    //let returnval = met(name1);
+    //console.log(returnval);
+    
+    let returnval = sum(1,2,3)
+    console.log(returnval);
+
+    //console.log(name1 + " is a Web developer");
+    //console.log(name2 + " is  nothing");
+    //console.log(name3 + " is a programmer");
+    //console.log(name4 + " is a Ethical Hacker");
+  </script>
+
+</body>
+
+</html>
